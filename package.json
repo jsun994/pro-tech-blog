@@ -1,0 +1,29 @@
+{
+  "name": "challenge-12",
+  "version": "1.0.0",
+  "description": "tech blog",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsun994/pro-tech-blog.git"
+  },
+  "author": "jay sun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsun994/pro-tech-blog/issues"
+  },
+  "homepage": "https://github.com/jsun994/pro-tech-blog#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.2",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4",
+    "express-session": "^1.17.2",
+    "mysql2": "^2.3.2",
+    "sequelize": "^6.9.0"
+  }
+}
