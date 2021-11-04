@@ -22,18 +22,18 @@ a:hover {
 }
 
 button {
-  background-color: darkslateblue;
+  background-color: darkorange;
   border: 0;
-  padding: 1%;
+  padding: 2%;
   color: white;
   font-weight: bold;
   transition: background-color .1s;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 6px;
 }
 
 button:hover {
-  background-color: darkblue;
+  background-color: lightcoral;
 }
 
 .post-list {
@@ -42,14 +42,14 @@ button:hover {
 }
 
 textarea, input {
-  padding: .5%;
-  border-radius: 5px;
-  border: 1px solid #ccc;
+  padding: .6%;
+  border-radius: 6px;
+  border: 1.2px solid black;
 }
 
 textarea:focus, input:focus {
   outline: none;
-  border: 1px solid #3486eb;
+  border: 1.2px solid darkorange;
 }
 
 textarea {
@@ -75,11 +75,11 @@ form label {
 }
 
 header {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1.2px solid black;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1%;
+  padding: 0 1.2%;
 }
 
 header h1 {
@@ -97,7 +97,7 @@ main {
   padding: 0;
   cursor: pointer;
   text-decoration: none;
-  color: #225ca3;
+  color: darkblue;
   font-size: 100%;
   font-weight: bold;
   transition: color .1s;
@@ -106,40 +106,40 @@ main {
 
 .btn-no-style:hover {
   background: none;
-  color: #3486eb;
+  color: black;
 }
 
 .delete-post-btn {
-  background-color: #d41414;
+  background-color: darkred;
 }
 
 .delete-post-btn:hover {
-  background-color: #ff643d;
+  background-color: red;
 }
 
 .post {
   margin-bottom: 2%;
-  line-height: 150%;
+  line-height: 140%;
 }
 
 .post .title span {
   font-style: italic;
   font-size: 90%;
-  color: #7d7d7d;
+  color: black;
 }
 
 .edit-link {
   display: block;
-  margin: -1.5% 0 2% 0;
+  margin: -1.4% 0 2% 0;
 }
 
 .comment-form {
-  margin-bottom: 5%;
+  margin-bottom: 6%;
 }
 
 .comment {
-  padding: 1%;
-  margin-bottom: 1%;
+  padding: 0.8%;
+  margin-bottom: 0.8%;
 }
 
 .comment:nth-child(odd) {
@@ -148,7 +148,7 @@ main {
 
 .comment .meta {
   font-size: 90%;
-  margin-bottom: .5%;
+  margin-bottom: .6%;
   opacity: .6;
 }
 
@@ -157,13 +157,13 @@ main {
 }
 
 .edit-post-form {
-  margin-bottom: 5%;
+  margin-bottom: 6%;
 }
 
 footer {
-  border-top: 1px solid #ccc;
+  border-top: 1.2px solid black;
   display: flex;
   justify-content: center;
-  padding: 1%;
-  font-size: 110%;
+  padding: 1.2%;
+  font-size: 100%;
 }
