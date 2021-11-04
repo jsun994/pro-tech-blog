@@ -76,7 +76,6 @@ router.get('/:id', (req, res) => {
 });
 
 router.post('/', (req, res) => {
-  // expects {title: 'Taskmaster goes public!', post_url: 'https://taskmaster.com/press', user_id: 1}
   Post.create({
     title: req.body.title,
     post_text: req.body.post_text,
@@ -102,7 +101,7 @@ router.put('/:id', (req, res) => {
     }
   )
   .then(dbPostData => {
-    if (!dbPostData) {
+    if (!dbPostData[0]) {
       res.status(404).json({ message: 'no post found with this id' });
       return;
     }
