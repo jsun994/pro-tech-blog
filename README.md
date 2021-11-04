@@ -8,7 +8,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/jsun994/pro-tech-blog">
+  <a href="https://tech-blog-pro.herokuapp.com/">
     <img src="./media/apple.svg" alt="Logo" width="80" height="80">
   </a>
 
@@ -18,7 +18,7 @@
     <a href="https://github.com/jsun994/pro-tech-blog"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://pro-tech-blog.herokuapp.com/">View Demo</a>
+    <a href="https://tech-blog-pro.herokuapp.com/">View Demo</a>
     ·
     <a href="https://github.com/jsun994/pro-tech-blog/issues">Report Bug</a>
     ·
@@ -57,7 +57,7 @@
     SO THAT I can publish articles, blog posts, and my thoughts and opinions
 
 ![media1](./media/ss1.png)
-Demo - [Heroku](https://pro-tech-blog.herokuapp.com/)
+Demo - [Heroku](https://tech-blog-pro.herokuapp.com/)
 
 ### Built With
 
