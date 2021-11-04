@@ -56,7 +56,7 @@
     I WANT a CMS-style blog site
     SO THAT I can publish articles, blog posts, and my thoughts and opinions
 
-![media1](./media/ss1.png)
+![media0](./media/ss0.png)
 Demo - [Heroku](https://tech-blog-pro.herokuapp.com/)
 
 ### Built With
