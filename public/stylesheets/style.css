@@ -7,22 +7,22 @@ body, html {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
-  color: #333;
+  color: black;
 }
 
 a {
   text-decoration: none;
-  color: #225ca3;
+  color: darkorange;
   font-weight: bold;
   transition: color .1s;
 }
 
 a:hover {
-  color: #3486eb;
+  color: lightcoral;
 }
 
 button {
-  background-color: #225ca3;
+  background-color: darkslateblue;
   border: 0;
   padding: 1%;
   color: white;
@@ -33,7 +33,7 @@ button {
 }
 
 button:hover {
-  background-color: #3486eb;
+  background-color: darkblue;
 }
 
 .post-list {
@@ -83,7 +83,7 @@ header {
 }
 
 header h1 {
-  font-size: 1em;
+  font-size: 2em;
 }
 
 main {
@@ -133,15 +133,6 @@ main {
   margin: -1.5% 0 2% 0;
 }
 
-.upvote-btn {
-  background-color: #197d0f;
-  transition: background-color .1s;
-}
-
-.upvote-btn:hover {
-  background-color: #1f9c13;
-}
-
 .comment-form {
   margin-bottom: 5%;
 }
@@ -152,7 +143,7 @@ main {
 }
 
 .comment:nth-child(odd) {
-  background-color: #fff5eb;
+  background-color: lightpink;
 }
 
 .comment .meta {

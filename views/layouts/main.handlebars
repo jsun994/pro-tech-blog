@@ -5,21 +5,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tech Blog</title>
-  <link rel="stylesheet" href="/stylesheets/style.css">
+  <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+        crossorigin="anonymous"
+    />
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+        rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
 
 <body>
   <div class="wrapper">
     <header>
       <h1>
-        <a href="/">Tech Blog</a>
+        <a href="/">Tech Blog </a><i class="fas fa-apple-alt"></i>
       </h1>
       <nav>
         {{#if loggedIn}}
-        <a href="/dashboard">Dashboard</a>
-        <button id="logout" class="btn-no-style">Logout</button>
+
+        <a href="/dashboard">Dashboard <i class="fas fa-columns"></i></a>
+        <button id="logout" class="btn-no-style">Logout <i class="fas fa-sign-out-alt"></i></button>
+
         {{else}}
-        <a href="/login">Login</a>
+        <a href="/">Homepage <i class="fas fa-igloo"></i></a>
+        <a href="/login">Login <i class="fas fa-sign-in-alt"></i></a>
+
         {{/if}}
       </nav>
     </header>
