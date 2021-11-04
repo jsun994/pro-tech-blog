@@ -19,7 +19,7 @@ Post.init(
       }
     },
     post_text: {
-      type: DataTypes.STRING,
+      type: DataTypes.TEXT('long'),
       allowNull: false,
       validate: {
         len:[1]
