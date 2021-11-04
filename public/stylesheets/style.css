@@ -49,7 +49,7 @@ textarea, input {
 
 textarea:focus, input:focus {
   outline: none;
-  border: 1.2px solid darkorange;
+  border: 1.2px solid darkgray;
 }
 
 textarea {

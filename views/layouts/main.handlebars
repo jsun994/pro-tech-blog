@@ -27,11 +27,13 @@
       <nav>
         {{#if loggedIn}}
 
-        <a href="/dashboard">Dashboard <i class="fas fa-columns"></i></a>
+        <a href="/" class="btn-no-style">Homepage <i class="fas fa-home"></i></a>
+        <a href="/dashboard" class="btn-no-style">Dashboard <i class="fas fa-columns"></i></a>
         <button id="logout" class="btn-no-style">Logout <i class="fas fa-sign-out-alt"></i></button>
 
         {{else}}
-        <a href="/">Homepage <i class="fas fa-home"></i></a>
+        <a href="/" class="btn-no-style">Homepage <i class="fas fa-home"></i></a>
+        <a href="/login" class="btn-no-style">Dashboard <i class="fas fa-columns"></i></a>
         <a href="/login" class="btn-no-style">Login <i class="fas fa-sign-in-alt"></i></a>
 
         {{/if}}
