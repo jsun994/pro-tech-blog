@@ -167,3 +167,15 @@ footer {
   padding: 1.2%;
   font-size: 100%;
 }
+
+@media screen and (max-width: 803px) {
+  .post-list {
+    padding: 6%;
+  }
+  .nav {
+    display: flex;
+  }
+  .head {
+    padding: 6%;
+  }
+}
