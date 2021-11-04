@@ -18,7 +18,7 @@ async function loginFormHandler(event) {
             //console.log(response);
             document.location.replace('/dashboard')
         } else {
-            alert(response.statusText);
+            alert(response.statusText + ', invalid email or password');
         }
     }
 }

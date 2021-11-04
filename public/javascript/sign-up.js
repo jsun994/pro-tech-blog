@@ -20,7 +20,7 @@ async function signupFormHandler(event) {
             //console.log(response);
             document.location.replace('/');
         } else {
-            alert(response.statusText);
+            alert(response.statusText + ', invalid infos');
         }
     }
 }
