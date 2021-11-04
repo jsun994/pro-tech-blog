@@ -1,3 +1,6 @@
+const modal = document.querySelector(".modal");
+const closeButton = document.querySelector(".close-button");
+
 async function signupFormHandler(event) {
     event.preventDefault();
   
@@ -20,9 +23,16 @@ async function signupFormHandler(event) {
             //console.log(response);
             document.location.replace('/dashboard');
         } else {
-            alert(response.statusText + ', invalid infos');
+            modal.classList.toggle("show-modal");
+            //alert(response.statusText + ', invalid infos');
         }
     }
 }
+
+function toggleModal() {
+    modal.classList.toggle("show-modal");
+}
+
+closeButton.addEventListener("click", toggleModal);
 
 document.querySelector('.signup-form').addEventListener('submit', signupFormHandler);
