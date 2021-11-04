@@ -4,7 +4,6 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -158,5 +157,3 @@ Jay Sun - [email me](mailto:jaysun054@gmail.com)
 [stars-url]: https://github.com/jsun994/pro-tech-blog/stargazers
 [issues-shield]: https://img.shields.io/github/issues/jsun994/pro-tech-blog.svg?style=for-the-badge
 [issues-url]: https://github.com/jsun994/pro-tech-blog/issues
-[license-shield]: https://img.shields.io/github/license/jsun994/pro-tech-blog.svg?style=for-the-badge
-[license-url]: https://github.com/jsun994/pro-tech-blog/blob/main/LICENSE.txt
