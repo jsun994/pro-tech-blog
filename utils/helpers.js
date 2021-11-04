@@ -5,7 +5,7 @@ module.exports = {
         ).getFullYear()}`;
     },
     format_plural: (word, amount) => {
-        if (amount != 1) {
+        if (amount > 0) {
             return `${word}s`;
         }
         return word;
