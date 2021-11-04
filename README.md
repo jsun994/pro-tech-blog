@@ -159,4 +159,4 @@ Jay Sun - [email me](mailto:jaysun054@gmail.com)
 [issues-shield]: https://img.shields.io/github/issues/jsun994/pro-tech-blog.svg?style=for-the-badge
 [issues-url]: https://github.com/jsun994/pro-tech-blog/issues
 [license-shield]: https://img.shields.io/github/license/jsun994/pro-tech-blog.svg?style=for-the-badge
-[license-url]: https://github.com/jsun994/pro-tech-blog/blob/master/LICENSE.txt
+[license-url]: https://github.com/jsun994/pro-tech-blog/blob/main/LICENSE.txt
